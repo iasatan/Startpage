@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Startpage</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1 id="title"></h1>
+        <div class="lang" role="group">
+          <button data-lang="en">EN</button>
+          <button data-lang="hu">HU</button>
+        </div>
+      </header>
+      <input id="search" type="search" autocomplete="off" />
+      <p id="status" role="status"></p>
+      <main id="grid"></main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
